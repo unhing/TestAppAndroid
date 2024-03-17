@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MySmsActivity">
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Name" />
+
+    <TextView
+        android:id="@+id/txtContactName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone Number" />
+
+    <TextView
+        android:id="@+id/txtPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Message body" />
+
+    <EditText
+        android:id="@+id/edtMessageBody"
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/button11"
+        android:onClick="doSendSms1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send SMS 1" />
+
+    <Button
+        android:id="@+id/button12"
+        android:onClick="doSendSms2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send SMS 2" />
+
+    <Button
+        android:id="@+id/button13"
+        android:onClick="doSendSms3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send SMS 3" />
+</LinearLayout>

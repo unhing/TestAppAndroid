@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".EventHandlingActivity">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OnClick XML" />
+
+    <Button
+        android:id="@+id/btnChangeImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Anonymous Listener" />
+
+    <ImageView
+        android:id="@+id/imgStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/student_male" />
+
+    <Button
+        android:onClick="openPtb2Activity"
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Variable as Listener" />
+
+    <Button
+        android:onClick="openToLunarYear"
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Activity as Listener" />
+
+    <Button
+        android:onClick="openImageSlideShow"
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Explicit Class Listener" />
+
+    <Button
+        android:onClick="openRuntimeViewActivity"
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Subclassing" />
+</LinearLayout>
